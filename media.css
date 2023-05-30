@@ -1,0 +1,3812 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* index media css */
+
+@media screen and (max-width:1024px) {
+    .header{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header-mob{
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:479px){
+    .banner{
+        width: 100%;
+        height:60vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 40%  0 0 5%;
+    }
+
+    .banner_text{
+        width: 100%;
+    }
+
+    .banner_text h1{
+        font-size: 30px;
+    }
+
+
+
+    .banner_form{
+        display: none;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: block;
+    }
+
+    .aboutimage{
+        width: 100%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 100%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 25px;
+    }
+
+    .aboutflex{
+        position: static;
+        width: 90%;
+        margin:  40px auto 0 auto;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 48%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 50px 0 0 0;
+        display: block;
+    }
+
+    .servicetext{
+        width: 100%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 25px;
+    }
+
+    .serviceimage{
+        width: 100%;
+    }
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 90%;
+        height: 100%;
+        left: 5%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 25px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 60px;
+        right: 20px;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 18px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 700px;
+    }
+
+    .testimonial_cont{
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 25px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 25px;
+        
+    }
+
+    .rentbox p{
+        width: 100%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 48%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: block;
+    }
+
+    .touch{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .touchmap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: block;
+    }
+
+    .footerbox{
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 90%;
+        margin: 0 auto 40px auto;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 10px !important;
+    }
+
+    /* about media css */
+
+    .about_banner_cont h2{
+        padding: 70% 0 0 0;
+    }
+
+    .about_services{
+        display: block;
+    }
+
+    .aboutservice{
+        width: 100%;
+        margin: 0 auto 30px auto;
+    }
+
+    .aboutservice h4{
+        font-size: 18px ;
+    }
+
+    .about_content {
+        width: 100%;
+        display: block;
+      }
+
+      .about_content_text{
+        width: 100%;
+        
+      }
+
+      .about_content_text h5{
+        font-size: 15px;
+      }
+
+      .about_content_text h2{
+        font-size: 25px;
+      }
+
+      .about_icon h4{
+        font-size: 15px;
+      }
+
+      .about_content_image{
+        width: 100%;
+      }
+
+      .about_content_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .counter_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0);
+      }
+
+      .counter-up{
+        width: 48%;
+        margin-bottom: 30px;
+      }
+
+      .counter-up h3{
+        font-size: 28px;
+      }
+
+      .counter-up p{
+        font-size: 13px;
+        text-align: center;
+      }
+
+
+      .counter-up h3::after{
+        right: -20px;
+      }
+
+      .subscribe_box{
+        display: block;
+      }
+
+      .subscribe_text{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
+      .subscribe_text h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+
+      .subscribe_link{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+
+      .salebox h5{
+        font-size: 15px;
+      }
+
+      .salebox h2{
+        font-size: 25px;
+      }
+
+      .team_cont{
+        display: block;
+      }
+      .team_box{
+        width: 100%;
+        margin: 0 0 20px 0;
+      }
+
+      .subscribe_cont{
+        width: 90%;
+        display: block;
+      }
+      
+      .subscribe_icon{
+      font-size: 25px;
+      width: 20%;
+      }
+
+      .subscribed_text{
+        width: 100%;
+        display: flex;
+      }
+
+      .subs_text{
+        width: 70%;
+      }
+
+      .subs_text h4 {
+        font-size: 18px;
+
+      }
+
+      .subs_text p {
+        font-size: 13px;
+
+      }
+
+      .subscribe_form {
+        width:100%;
+        margin: 30px 0 0 0;
+      }
+
+      .subscribe_form input[type="email"]{
+        font-size: 13px;
+      }
+
+      .subscribe_form input[type="submit"]{
+        font-size: 13px;
+        width: 30%;
+      }
+
+     
+
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:639px){
+    .banner{
+        width: 100%;
+        height:60vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 30%  0 0 5%;
+    }
+
+    .banner_text{
+        width: 100%;
+    }
+
+    .banner_text h1{
+        font-size: 30px;
+    }
+
+
+
+    .banner_form{
+        display: none;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: block;
+    }
+
+    .aboutimage{
+        width: 100%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 100%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 25px;
+    }
+
+    .aboutflex{
+        position: static;
+        width: 90%;
+        margin:  40px auto 0 auto;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 48%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 50px 0 0 0;
+        display: block;
+    }
+
+    .servicetext{
+        width: 100%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 25px;
+    }
+
+    .serviceimage{
+        width: 100%;
+    }
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 90%;
+        height: 100%;
+        left: 5%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 25px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 650px;
+    }
+
+    .testimonial_cont{
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 25px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 25px;
+        
+    }
+
+    .rentbox p{
+        width: 100%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 48%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: block;
+    }
+
+    .touch{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .touchmap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: block;
+    }
+
+    .footerbox{
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 90%;
+        margin: 0 auto 40px auto;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 10px !important;
+    }
+
+     /* about media css */
+
+     .about_banner_cont h2{
+        padding: 45% 0 0 0;
+    }
+
+    .about_services{
+        display: block;
+    }
+
+    .aboutservice{
+        width: 100%;
+        margin: 0 auto 30px auto;
+    }
+
+    .aboutservice h4{
+        font-size: 18px ;
+    }
+
+    .about_content {
+        width: 100%;
+        display: block;
+      }
+
+      .about_content_text{
+        width: 100%;
+        
+      }
+
+      .about_content_text h5{
+        font-size: 15px;
+      }
+
+      .about_content_text h2{
+        font-size: 25px;
+      }
+
+      .about_icon h4{
+        font-size: 15px;
+      }
+
+      .about_content_image{
+        width: 100%;
+      }
+
+      .about_content_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .counter_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0);
+      }
+
+      .counter-up{
+        width: 48%;
+        margin-bottom: 30px;
+      }
+
+      .counter-up h3{
+        font-size: 28px;
+      }
+
+      .counter-up p{
+        font-size: 13px;
+        text-align: center;
+      }
+
+
+      .counter-up h3::after{
+        right: -20px;
+      }
+
+      .subscribe_box{
+        display: block;
+      }
+
+      .subscribe_text{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
+      .subscribe_text h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+
+      .subscribe_link{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+
+      .salebox h5{
+        font-size: 15px;
+      }
+
+      .salebox h2{
+        font-size: 25px;
+      }
+
+      .team_cont{
+        display: block;
+      }
+      .team_box{
+        width: 100%;
+        margin: 0 0 20px 0;
+      }
+
+      .subscribe_cont{
+        width: 90%;
+        display: block;
+      }
+      
+      .subscribe_icon{
+      font-size: 25px;
+      width: 20%;
+      }
+
+      .subscribed_text{
+        width: 100%;
+        display: flex;
+      }
+
+      .subs_text{
+        width: 70%;
+      }
+
+      .subs_text h4 {
+        font-size: 18px;
+
+      }
+
+      .subs_text p {
+        font-size: 13px;
+
+      }
+
+      .subscribe_form {
+        width:100%;
+        margin: 30px 0 0 0;
+      }
+
+      .subscribe_form input[type="email"]{
+        font-size: 13px;
+      }
+
+      .subscribe_form input[type="submit"]{
+        font-size: 13px;
+        width: 30%;
+      }
+
+
+}
+
+@media screen and (min-width:640px) and (max-width:799px){
+    .banner{
+        width: 100%;
+        height:80vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 90%;
+        left: 5%;
+        top: 0;
+        padding: 25%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 25px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 90%;
+        top: 100%;
+        left: 5%;
+        margin: 20px 0 0 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 50px 0 0 0;
+        display: block;
+    }
+
+    .servicetext{
+        width: 100%;
+        margin: 40% 0 0 0;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 25px;
+    }
+
+    .serviceimage{
+        width: 100%;
+    }
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 90%;
+        height: 100%;
+        left: 5%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 25px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 650px;
+    }
+
+    .testimonial_cont{
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 25px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 25px;
+        
+    }
+
+    .rentbox p{
+        width: 100%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 48%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: block;
+    }
+
+    .touch{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .touchmap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 10px !important;
+    }
+
+         /* about media css */
+
+         .about_banner_cont h2{
+            padding: 45% 0 0 0;
+        }
+    
+        .about_services{
+            display: block;
+        }
+    
+        .aboutservice{
+            width: 100%;
+            margin: 0 auto 30px auto;
+        }
+    
+        .aboutservice h4{
+            font-size: 18px ;
+        }
+    
+        .about_content {
+            width: 100%;
+            display: block;
+          }
+    
+          .about_content_text{
+            width: 100%;
+            
+          }
+    
+          .about_content_text h5{
+            font-size: 15px;
+          }
+    
+          .about_content_text h2{
+            font-size: 25px;
+          }
+    
+          .about_icon h4{
+            font-size: 15px;
+          }
+    
+          .about_content_image{
+            width: 100%;
+          }
+    
+          .about_content_image img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+    
+          .counter_box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            transform: translateY(0);
+          }
+    
+          .counter-up{
+            width: 48%;
+            margin-bottom: 30px;
+          }
+    
+          .counter-up h3{
+            font-size: 28px;
+          }
+    
+          .counter-up p{
+            font-size: 13px;
+            text-align: center;
+          }
+    
+    
+          .counter-up h3::after{
+            right: -20px;
+          }
+    
+          .subscribe_box{
+            display: block;
+          }
+    
+          .subscribe_text{
+            width: 100%;
+            display: block;
+            text-align: center;
+          }
+    
+          .subscribe_text h3{
+            font-size: 25px;
+            padding-bottom: 20px;
+          }
+    
+          .subscribe_link{
+            width: 100%;
+            text-align: center;
+            margin: 20px 0 0 0;
+          }
+    
+          .salebox h5{
+            font-size: 15px;
+          }
+    
+          .salebox h2{
+            font-size: 25px;
+          }
+    
+          .team_cont{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .team_box{
+            width: 48%;
+            margin: 0 0 40px 0;
+          }
+    
+          .subscribe_cont{
+            width: 90%;
+            display: block;
+          }
+          
+          .subscribe_icon{
+          font-size: 25px;
+          width: 10%;
+          }
+    
+          .subscribed_text{
+            width: 100%;
+            display: flex;
+          }
+    
+          .subs_text{
+            width: 90%;
+          }
+    
+          .subs_text h4 {
+            font-size: 18px;
+    
+          }
+    
+          .subs_text p {
+            font-size: 13px;
+    
+          }
+    
+          .subscribe_form {
+            width:100%;
+            margin: 30px 0 0 0;
+          }
+    
+          .subscribe_form input[type="email"]{
+            font-size: 13px;
+          }
+    
+          .subscribe_form input[type="submit"]{
+            font-size: 13px;
+            width: 30%;
+          }
+
+          
+}
+
+
+@media screen and (min-width:800px) and (max-width:991px){
+    .banner{
+        width: 100%;
+        height:80vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 90%;
+        left: 5%;
+        top: 0;
+        padding: 20%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 28px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 90%;
+        top: 100%;
+        left: 5%;
+        margin: 20px 0 0 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 50px 0 0 0;
+        display: block;
+    }
+
+    .servicetext{
+        width: 100%;
+        margin: 40% 0 0 0;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 28px;
+    }
+
+    .serviceimage{
+        width: 100%;
+    }
+
+
+   
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 90%;
+        height: 100%;
+        left: 5%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 28px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 650px;
+    }
+
+    .testimonial_cont{
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 28px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 28px;
+        
+    }
+
+    .rentbox p{
+        width: 100%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 48%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: block;
+    }
+
+    .touch{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .touchmap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 14px !important;
+    }
+
+    /* about media css */
+    
+    .about_banner_cont h2{
+        padding: 25% 0 0 0;
+    }
+
+    .about_services{
+        display: flex;
+    }
+
+    .aboutservice{
+        width: 32%;
+    }
+
+    .aboutservice h4{
+        font-size: 18px ;
+    }
+
+    .about_content {
+        width: 100%;
+        display: flex;
+      }
+
+      .about_content_text{
+        width: 100%;
+        
+      }
+
+      .about_content_text h5{
+        font-size: 15px;
+      }
+
+      .about_content_text h2{
+        font-size: 28px;
+      }
+
+      .about_icon h4{
+        font-size: 15px;
+      }
+
+      .about_content_image{
+        width: 100%;
+      }
+
+      .about_content_image img{
+        width: 100%;
+       }
+
+      .counter_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0);
+      }
+
+      .counter-up{
+        width: 48%;
+        margin-bottom: 30px;
+      }
+
+      .counter-up h3{
+        font-size: 28px;
+      }
+
+      .counter-up p{
+        font-size: 13px;
+        text-align: center;
+      }
+
+
+      .counter-up h3::after{
+        right: -20px;
+      }
+
+      .subscribe_box{
+        display: block;
+      }
+
+      .subscribe_text{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
+      .subscribe_text h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+
+      .subscribe_link{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+
+      .salebox h5{
+        font-size: 15px;
+      }
+
+      .salebox h2{
+        font-size: 28px;
+      }
+
+      .team_cont{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .team_box{
+        width: 48%;
+        margin: 0 0 40px 0;
+      }
+
+      .subscribe_cont{
+        width: 90%;
+        display: flex;
+        align-items: center;
+      }
+      
+      .subscribe_icon{
+      font-size: 25px;
+      width: 10%;
+      }
+
+      .subscribed_text{
+        width: 48%;
+        display: flex;
+      }
+
+      .subs_text{
+        width: 90%;
+      }
+
+      .subs_text h4 {
+        font-size: 18px;
+
+      }
+
+      .subs_text p {
+        font-size: 13px;
+
+      }
+
+      .subscribe_form {
+        width:48%;
+        margin: 30px 0 0 0;
+      }
+
+      .subscribe_form input[type="email"]{
+        font-size: 13px;
+      }
+
+      .subscribe_form input[type="submit"]{
+        font-size: 13px;
+        width: 30%;
+      }
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1024.67px){
+    .banner{
+        width: 100%;
+        height:85vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 90%;
+        left: 5%;
+        top: 0;
+        padding: 15%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 30px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 90%;
+        top: 70%;
+        left: 5%;
+        margin: 20px 0 0 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 25% 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .servicetext_image{
+        margin: 50px 0 0 0;
+    }
+
+    .servicetext{
+        width: 48%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 30px;
+    }
+
+    .serviceimage{
+        width: 48%;
+    }
+
+
+    .imagebox{
+        width: 48%;
+    }
+   
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 90%;
+        height: 100%;
+        left: 5%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 30px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 600px;
+    }
+
+    .testimonial_cont{
+        width: 90%;
+        left: 5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 30px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 30px;
+        
+    }
+
+    .rentbox p{
+        width: 100%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 30%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: flex;
+        justify-content: space-between  ;
+    }
+
+    .touch{
+        width: 48%;
+    }
+
+    .touchmap{
+        width: 48%;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 48%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 12px !important;
+    }
+
+     /* about media css */
+    
+     .about_banner_cont h2{
+        padding: 25% 0 0 0;
+    }
+
+    .about_services{
+        display: flex;
+    }
+
+    .aboutservice{
+        width: 32%;
+    }
+
+    .aboutservice h4{
+        font-size: 18px ;
+    }
+
+    .about_content {
+        width: 100%;
+        display: flex;
+      }
+
+      .about_content_text{
+        width: 100%;
+        
+      }
+
+      .about_content_text h5{
+        font-size: 15px;
+      }
+
+      .about_content_text h2{
+        font-size: 30px;
+      }
+
+      .about_icon h4{
+        font-size: 15px;
+      }
+
+      .about_content_image{
+        width: 100%;
+      }
+
+      .about_content_image img{
+        width: 100%;
+       }
+
+      .counter_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(0);
+      }
+
+      .counter-up{
+        width: 48%;
+        margin-bottom: 30px;
+      }
+
+      .counter-up h3{
+        font-size: 30px;
+      }
+
+      .counter-up p{
+        font-size: 13px;
+        text-align: center;
+      }
+
+
+      .counter-up h3::after{
+        right: -20px;
+      }
+
+      .subscribe_box{
+        display: block;
+      }
+
+      .subscribe_text{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
+      .subscribe_text h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+
+      .subscribe_link{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+      }
+
+      .salebox h5{
+        font-size: 15px;
+      }
+
+      .salebox h2{
+        font-size: 30px;
+      }
+
+      .team_cont{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .team_box{
+        width: 48%;
+        margin: 0 0 40px 0;
+      }
+
+      .subscribe_cont{
+        width: 90%;
+        display: flex;
+        align-items: center;
+      }
+      
+      .subscribe_icon{
+      font-size: 25px;
+      width: 10%;
+      }
+
+      .subscribed_text{
+        width: 48%;
+        display: flex;
+      }
+
+      .subs_text{
+        width: 90%;
+      }
+
+      .subs_text h4 {
+        font-size: 18px;
+
+      }
+
+      .subs_text p {
+        font-size: 13px;
+
+      }
+
+      .subscribe_form {
+        width:48%;
+        margin: 30px 0 0 0;
+      }
+
+      .subscribe_form input[type="email"]{
+        font-size: 13px;
+      }
+
+      .subscribe_form input[type="submit"]{
+        font-size: 13px;
+        width: 30%;
+      }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1140.67px){
+    .topbar {
+        width: 70%;
+        clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+        padding: 5px 0 5px 50px;
+      }
+
+
+    
+    .menu ul li a{
+        font-size: 14px;
+    }
+    
+    
+    
+    
+    .banner{
+        width: 100%;
+        height:85vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 70%;
+        left: 15%;
+        top: 0;
+        padding: 20%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 32px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 90%;
+        top: 70%;
+        left: 5%;
+        margin: 20px 0 0 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 30% 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .servicetext_image{
+        margin: 50px 0 0 0;
+    }
+
+    .servicetext{
+        width: 48%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 32px;
+    }
+
+    .serviceimage{
+        width: 48%;
+    }
+
+
+    .imagebox{
+        width: 48%;
+    }
+   
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 70%;
+        height: 100%;
+        left: 15%;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 32px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 600px;
+    }
+
+    .testimonial_cont{
+        width: 70%;
+        left: 1  5%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 32px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 32px;
+        
+    }
+
+    .rentbox p{
+        width: 60%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 30%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .rent p{
+        width: 100%;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: flex;
+        justify-content: space-between  ;
+    }
+
+    .touch{
+        width: 48%;
+    }
+
+    .touchmap{
+        width: 48%;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 30%;
+        margin: 0 0 20px 0;
+    }
+    
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 13px !important;
+    }
+
+     /* about media css */
+    
+     .about_banner_cont h2{
+        padding: 25% 0 0 0;
+    }
+
+    .about_services{
+        display: flex;
+    }
+
+    .aboutservice{
+        width: 32%;
+    }
+
+    .aboutservice h4{
+        font-size: 18px ;
+    }
+
+    .about_content {
+        width: 100%;
+        display: flex;
+      }
+
+      .about_content_text{
+        width: 100%;
+        
+      }
+
+      .about_content_text h5{
+        font-size: 15px;
+      }
+
+      .about_content_text h2{
+        font-size: 32px;
+      }
+
+      .about_icon h4{
+        font-size: 15px;
+      }
+
+      .about_content_image{
+        width: 100%;
+      }
+
+      .about_content_image img{
+        width: 100%;
+       }
+
+      .counter_box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        transform: translateY(90px);
+      }
+
+      .counter-up{
+        width: 22%;
+      }
+
+      .counter-up h3{
+        font-size: 30px;
+      }
+
+      .counter-up p{
+        font-size: 13px;
+        text-align: center;
+      }
+
+
+      .counter-up h3::after{
+        right: -20px;
+      }
+
+      .subscribe_box{
+        display: flex;
+      }
+
+      .subscribe_text{
+        width: 65%;
+      }
+
+      .subscribe_text h3{
+        font-size: 25px;
+        padding-bottom: 20px;
+      }
+
+      .subscribe_link{
+        width: 30%;
+        margin: 20px 0 0 0;
+        text-align: center;
+      }
+
+      .salebox h5{
+        font-size: 15px;
+      }
+
+      .salebox h2{
+        font-size: 32px;
+      }
+
+      .team_cont{
+        display: flex;
+        justify-content: space-between;
+      }
+      .team_box{
+        width: 22%;
+      }
+
+      .subscribe_cont{
+        width: 90%;
+        display: flex;
+        align-items: center;
+      }
+      
+      .subscribe_icon{
+      font-size: 25px;
+      width: 10%;
+      }
+
+      .subscribed_text{
+        width: 48%;
+        display: flex;
+      }
+
+      .subs_text{
+        width: 90%;
+      }
+
+      .subs_text h4 {
+        font-size: 18px;
+
+      }
+
+      .subs_text p {
+        font-size: 13px;
+
+      }
+
+      .subscribe_form {
+        width:48%;
+        margin: 30px 0 0 0;
+      }
+
+      .subscribe_form input[type="email"]{
+        font-size: 13px;
+      }
+
+      .subscribe_form input[type="submit"]{
+        font-size: 13px;
+        width: 30%;
+      }
+
+
+} 
+
+@media screen and (min-width:1141px) and (max-width:1280.67px){
+    .topbar {
+        width: 70%;
+        clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+        padding: 5px 0 5px 50px;
+      }
+
+
+    
+   .page{
+    overflow: hidden;
+   }
+    
+    
+    
+    
+    .banner{
+        width: 100%;
+        height:85vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 70%;
+        left: 15%;
+        top: 0;
+        padding: 15%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 32px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 70%;
+        top: 70%;
+        right: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 30% 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .servicetext_image{
+        margin: 50px 0 0 0;
+    }
+
+    .servicetext{
+        width: 48%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 32px;
+    }
+
+    .serviceimage{
+        width: 48%;
+    }
+
+
+    .imagebox{
+        width: 48%;
+    }
+   
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 70%;
+        height: 100%;
+        left: 15%;
+        padding: 7% 0 0 0;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 32px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 600px;
+    }
+
+    .testimonial_cont{
+        width: 70%;
+        left: 15%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 32px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 32px;
+        
+    }
+
+    .rentbox p{
+        width: 60%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 30%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .rent p{
+        width: 100%;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: flex;
+        justify-content: space-between  ;
+    }
+
+    .touch{
+        width: 48%;
+    }
+
+    .touchmap{
+        width: 48%;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 20%;
+        margin: 0 0 20px 0;
+    }
+    
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 35%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 11px !important;
+    }
+
+         /* about media css */
+    
+         .about_banner_cont h2{
+            padding: 25% 0 0 0;
+        }
+    
+        .about_services{
+            display: flex;
+        }
+    
+        .aboutservice{
+            width: 32%;
+        }
+    
+        .aboutservice h4{
+            font-size: 18px ;
+        }
+    
+        .about_content {
+            width: 100%;
+            display: flex;
+          }
+    
+          .about_content_text{
+            width: 100%;
+            
+          }
+    
+          .about_content_text h5{
+            font-size: 15px;
+          }
+    
+          .about_content_text h2{
+            font-size: 32px;
+          }
+    
+          .about_icon h4{
+            font-size: 15px;
+          }
+    
+          .about_content_image{
+            width: 100%;
+          }
+    
+          .about_content_image img{
+            width: 100%;
+           }
+    
+          .counter_box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            transform: translateY(90px);
+          }
+    
+          .counter-up{
+            width: 22%;
+          }
+    
+          .counter-up h3{
+            font-size: 30px;
+          }
+    
+          .counter-up p{
+            font-size: 13px;
+            text-align: center;
+          }
+    
+    
+          .counter-up h3::after{
+            right: -20px;
+          }
+    
+          .subscribe_box{
+            display: flex;
+          }
+    
+          .subscribe_text{
+            width: 65%;
+          }
+    
+          .subscribe_text h3{
+            font-size: 25px;
+            padding-bottom: 20px;
+          }
+    
+          .subscribe_link{
+            width: 30%;
+            margin: 20px 0 0 0;
+            text-align: center;
+          }
+    
+          .salebox h5{
+            font-size: 15px;
+          }
+    
+          .salebox h2{
+            font-size: 32px;
+          }
+    
+          .team_cont{
+            display: flex;
+            justify-content: space-between;
+          }
+          .team_box{
+            width: 22%;
+          }
+    
+          .subscribe_cont{
+            width: 90%;
+            display: flex;
+            align-items: center;
+          }
+          
+          .subscribe_icon{
+          font-size: 25px;
+          width: 10%;
+          }
+    
+          .subscribed_text{
+            width: 48%;
+            display: flex;
+          }
+    
+          .subs_text{
+            width: 90%;
+          }
+    
+          .subs_text h4 {
+            font-size: 18px;
+    
+          }
+    
+          .subs_text p {
+            font-size: 13px;
+    
+          }
+    
+          .subscribe_form {
+            width:48%;
+            margin: 30px 0 0 0;
+          }
+    
+          .subscribe_form input[type="email"]{
+            font-size: 13px;
+          }
+    
+          .subscribe_form input[type="submit"]{
+            font-size: 13px;
+            width: 30%;
+          }
+
+}
+
+@media screen and (min-width:1281px) and (max-width:1440px){
+    .topbar {
+        width: 70%;
+        clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+        padding: 5px 0 5px 50px;
+      }
+
+
+    
+   .page{
+    overflow: hidden;
+   }
+    
+    
+    
+    
+    .banner{
+        width: 100%;
+        height:85vh;
+    }
+
+    .banner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner_cont{
+        width: 70%;
+        left: 15%;
+        top: 0;
+        padding: 15%  0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner_text{
+        width: 48%;
+    }
+
+    .banner_text h1{
+        font-size: 28px;
+    }
+
+
+
+    .banner_form{
+        display: initial;
+        width: 48%;
+    }
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .aboutbox{
+        width: 100%;
+        display: flex;
+    }
+
+    .aboutimage{
+        width: 48%;
+    }
+
+    .aboutimage img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .abouttext{
+        width: 48%;
+    }
+
+    .abouttext h5{
+        font-size: 15px;
+    }
+
+    .abouttext h2{
+        font-size: 32px;
+    }
+
+    .aboutflex{
+        position: absolute;
+        width: 70%;
+        top: 70%;
+        right: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 30%;
+        margin: 0 0 30px 0;
+        padding: 20px 0;
+    }
+
+    .box h4{
+        font-size: 18px;
+    }
+
+    .servicebox{
+        width: 100%;
+        margin: 15% 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .servicetext_image{
+        margin: 50px 0 0 0;
+    }
+
+    .servicetext{
+        width: 48%;
+    }
+
+    .servicetext h5{
+        font-size: 15px;
+    }
+
+    .servicetext h2{
+        font-size: 32px;
+    }
+
+    .serviceimage{
+        width: 48%;
+    }
+
+
+    .imagebox{
+        width: 48%;
+    }
+   
+
+    .imagebox_cont h4{
+        font-size: 15px;
+    }
+
+    .newsletter{
+        width: 100%;
+        height: 300px;
+    }
+
+    .newsbox{
+        width: 70%;
+        height: 100%;
+        left: 15%;
+        padding: 7% 0 0 0;
+    }
+
+    .newsbox h4{
+        font-size: 18px;
+    }
+
+    .blogbox{
+        width: 100%;
+
+    }
+
+    .blogbox h5{
+        font-size: 15px;
+        
+    }
+
+    .blogbox h2{
+        font-size: 32px;
+        
+    }
+
+    .blogpost{
+        width: 90%;
+    }
+
+    .blogicon{
+        width: 50px;
+        height: 50px;
+        right: 0;
+        bottom: -5px;
+    }
+
+    .blogetext h3 {
+        font-size: 17px;
+    }
+
+    .blogetext p{
+        font-size: 13px;
+    }
+
+    .testimonialbox{
+        width: 100%;
+        height: 600px;
+    }
+
+    .testimonial_cont{
+        width: 70%;
+        left: 15%;
+    }
+
+    .testimonial_cont h5{
+        font-size: 15px;
+        
+    }
+
+    .testimonial_cont h2{
+        font-size: 32px;
+        
+    }
+
+    .test{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .clientbox{
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .clientimage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clienttext{
+        margin: 0 0 0 40px;
+    }
+
+    .rentbox{
+        width: 100% ;
+    }
+
+    .rentbox h5{
+        font-size: 15px;
+        
+    }
+
+    .rentbox h2{
+        font-size: 32px;
+        
+    }
+
+    .rentbox p{
+        width: 60%;
+    }
+
+    .rent_cont{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .rent{
+        width: 30%;
+        padding:15px;
+    }
+
+    .rent h4{
+        font-size: 18px;
+    }
+
+    .rent p{
+        width: 100%;
+    }
+
+    .touchbox{
+        width: 100%;
+    }
+
+    .touch_cont{
+        display: flex;
+        justify-content: space-between  ;
+    }
+
+    .touch{
+        width: 48%;
+    }
+
+    .touchmap{
+        width: 48%;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+
+    .footer_cont{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerbox{
+        width: 20%;
+        margin: 0 0 20px 0;
+    }
+    
+
+    .footerlogo{
+        width: 100%;
+    }
+
+    .footerlogo a{
+        font-size: 50px;
+    }
+
+
+    .footerbox:last-child{
+        width: 35%;
+        margin: 0 0 20px 0;
+    }
+
+    .footerbox h4{
+        font-size: 16px;
+    }
+
+    .footerbox p{
+        font-size: 14px;
+    }
+
+    .footerbox ul li a{
+        font-size: 14px;
+    }
+
+    .footerbox:last-child a{
+        font-size: 14px;
+    }
+
+    .customlink{
+        font-size: 11px !important;
+    }
+
+         /* about media css */
+    
+         .about_banner_cont h2{
+            padding: 25% 0 0 0;
+        }
+    
+        .about_services{
+            display: flex;
+        }
+    
+        .aboutservice{
+            width: 32%;
+        }
+    
+        .aboutservice h4{
+            font-size: 18px ;
+        }
+    
+        .about_content {
+            width: 100%;
+            display: flex;
+          }
+    
+          .about_content_text{
+            width: 100%;
+            
+          }
+    
+          .about_content_text h5{
+            font-size: 15px;
+          }
+    
+          .about_content_text h2{
+            font-size: 32px;
+          }
+    
+          .about_icon h4{
+            font-size: 15px;
+          }
+    
+          .about_content_image{
+            width: 100%;
+          }
+    
+          .about_content_image img{
+            width: 100%;
+           }
+    
+          .counter_box {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            transform: translateY(90px);
+          }
+    
+          .counter-up{
+            width: 22%;
+          }
+    
+          .counter-up h3{
+            font-size: 30px;
+          }
+    
+          .counter-up p{
+            font-size: 13px;
+            text-align: center;
+          }
+    
+    
+          .counter-up h3::after{
+            right: -20px;
+          }
+    
+          .subscribe_box{
+            display: flex;
+          }
+    
+          .subscribe_text{
+            width: 65%;
+          }
+    
+          .subscribe_text h3{
+            font-size: 25px;
+            padding-bottom: 20px;
+          }
+    
+          .subscribe_link{
+            width: 30%;
+            margin: 20px 0 0 0;
+            text-align: center;
+          }
+    
+          .salebox h5{
+            font-size: 15px;
+          }
+    
+          .salebox h2{
+            font-size: 32px;
+          }
+    
+          .team_cont{
+            display: flex;
+            justify-content: space-between;
+          }
+          .team_box{
+            width: 22%;
+          }
+    
+          .subscribe_cont{
+            width: 90%;
+            display: flex;
+            align-items: center;
+          }
+          
+          .subscribe_icon{
+          font-size: 25px;
+          width: 10%;
+          }
+    
+          .subscribed_text{
+            width: 48%;
+            display: flex;
+          }
+    
+          .subs_text{
+            width: 90%;
+          }
+    
+          .subs_text h4 {
+            font-size: 18px;
+    
+          }
+    
+          .subs_text p {
+            font-size: 13px;
+    
+          }
+    
+          .subscribe_form {
+            width:48%;
+            margin: 30px 0 0 0;
+          }
+    
+          .subscribe_form input[type="email"]{
+            font-size: 13px;
+          }
+    
+          .subscribe_form input[type="submit"]{
+            font-size: 13px;
+            width: 30%;
+          }
+
+}
